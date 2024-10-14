@@ -27,3 +27,17 @@ pip install google-generativeai opencv-python Pillow
 GOOGLE_API_KEY = "your-api-key-here"
 
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
+
+## Key Functions
+
+- get_gemini_response(): Sends the image and prompt to the Gemini model and retrieves the response.
+- input_image_setup(): Preprocesses the image using OpenCV, applying grayscale and thresholding for improved OCR.
+- main(): Orchestrates the entire process from image input to final response.
+
+## Note
+
+This project is specifically designed for Turkish documents. The prompt and expected output are tailored for Turkish language content.
+
+## Contributor
+
+Yusuf Enes KURT
